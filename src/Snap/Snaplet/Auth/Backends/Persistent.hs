@@ -156,6 +156,7 @@ initHelper aus l pool = liftIO $ do
                  , activeUser = Nothing
                  , minPasswdLen = asMinPasswdLen aus
                  , rememberCookieName = asRememberCookieName aus
+                 , rememberCookieDomain = Nothing,
                  , rememberPeriod = asRememberPeriod aus
                  , siteKey = key
                  , lockout = asLockout aus
