@@ -44,7 +44,6 @@ Library
     heist                      >= 0.14,
     lens                       >= 3.7.6,
     errors                     >= 1.4,
-    MonadCatchIO-transformers  >= 0.3,
     monad-logger               >= 0.2.4   && < 0.4,
     mtl                        >= 2       && < 3,
     persistent                 >= 2.0,
